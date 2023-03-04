@@ -1,0 +1,568 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100vh;
+}
+/* Start NavBar */
+/* NavBar UP */
+
+/* Start Search */
+header section nav .up-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 30px;
+    width: 100%;
+    height: 150px;
+    border-bottom: 1px solid rgba(110, 97, 97, 0.404); 
+}
+section nav .up-nav .search {
+    margin-right: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+section nav .up-nav .search input {
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgba(228, 225, 225, 0.897);
+    width: 200px;
+    height: 30px;
+    padding-left: 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+section nav .up-nav .search input:focus {
+    outline: none;
+    padding-left: 10px;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+section nav .up-nav .search .fa-magnifying-glass{
+    font-size: 12px;
+    color: rgba(110, 97, 97, 0.76);
+}
+/* End Search */
+
+/* Text name */
+header section nav .up-nav .text {
+    border: 1px solid rgb(0, 0, 0);
+    width: 120px;
+    margin-right: 70px;
+}
+header section nav .up-nav .text a {
+    text-decoration: none;
+}
+header section nav .up-nav .text a h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 4px;
+    font-weight: 200;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* End text name */
+
+/* Srart icon */
+header section nav .up-nav .icon a {
+    color: rgba(22, 21, 21, 0.63);
+    font-size: 15px;
+    margin: 0 3px;
+}
+header section nav .up-nav .icon a:hover {
+    font-size: 17px;
+    color: rgba(22, 21, 21, 0.781);
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+/* End icon */
+/* End NavBar up */
+
+/* NavBar Down */
+header section nav .down-nav {
+    text-align: center;
+    margin: 20px 0;
+}
+header section nav .down-nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 200;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0 13px;
+}
+header section nav .down-nav .first{
+    color: blueviolet;
+}
+header section nav .down-nav a:hover {
+    color: blueviolet;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+header section nav .down-nav a .fa-angle-down {
+    font-size: 12px;
+}
+/* End NavBar Down */
+
+/* End NavBar */
+/* Start About */
+header .About .first {
+    width: 100%;
+    height: 80px;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    padding: 30px 0 0 50px;
+    background-color: rgba(71, 66, 66, 0.041);
+}
+header .About .first span {
+    color: blueviolet;
+}
+/* End About */
+/* Start form */
+header .form .conainer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    height: 100%;
+}
+header .form .conainer .left-title {
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+header .form .conainer div form {
+    width: 500px;
+    height: 100%;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 40px 0;
+    margin-top: 20px;
+}
+header .form .conainer div form .country {
+    width: 90%;
+    height: 40px;
+    background-color: white;
+    outline: none;
+    font-size: 15px;
+    margin-top: 8px;
+    padding-left: 6px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+header .form .conainer div form label {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-size: 16px;
+    font-weight: 200;
+}
+header .form .conainer div form .country-div {
+    text-align: left;
+    margin-left: 30px;
+}
+header .form .conainer div form .name {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    text-align: left;
+}
+header .form .conainer div form .name input {
+    margin-top: 10px;
+    width: 200px;
+    height: 40px;
+    outline: none;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+header .form .conainer div form .company {
+    margin-top: 30px;
+    margin-left: 60px;
+    text-align: left;
+
+}
+header .form .conainer div form .company input {
+    width: 80%;
+    height: 40px;
+    outline: none;
+    margin-top: 10px;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+header .form .conainer div form .addres {
+    margin-top: 30px;
+    margin-left: 60px;
+    text-align: left;
+}
+header .form .conainer div form .addres input {
+    width: 80%;
+    height: 40px;
+    outline: none;
+    margin-top: 10px;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header .form .conainer div form .Zip {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    text-align: left;
+}
+header .form .conainer div form .Zip input {
+    margin-top: 10px;
+    width: 200px;
+    height: 40px;
+    outline: none;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+header .form .conainer div form .email-phone {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    text-align: left;
+}
+header .form .conainer div form .email-phone input {
+    margin-top: 10px;
+    width: 200px;
+    height: 40px;
+    outline: none;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.form .conainer div form .email-phone .Phone input {
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header .form .conainer div form .checkbox {
+    margin-top: 40px;
+    margin-left: 30px;
+    text-align: left;
+    font-size: 30px;
+}
+header .form .conainer div form .comment {
+    margin-top: 40px;
+    margin-left: 30px;
+    text-align: left;
+}
+header .form .conainer div form .comment textarea {
+    width: 80%;
+    height: 150px;
+    margin-top: 10px;
+    padding: 10px 0 0 20px;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* End Left side */
+
+/* Start Right-side */
+/* First box */
+
+
+header .form .right-side .first-box h1{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+header .form .right-side .first-box .box {
+    border: 1px solid #ccc;
+    width: 500px;
+    height: 200px;
+    text-align: left;
+    margin-top: 20px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+header .form .right-side .first-box .box p {
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}
+.form .right-side .first-box .box div {
+    margin-top: 20px;
+}
+.form .right-side .first-box .box div input {
+    width: 300px;
+    height: 50px;
+    outline: none;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    border-radius: 10px 0 0 10px;
+    -webkit-border-radius: 10px 0 0 10px;
+    -moz-border-radius: 10px 0 0 10px;
+    -ms-border-radius: 10px 0 0 10px;
+    -o-border-radius: 10px 0 0 10px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.form .right-side .first-box .box div a {
+    padding: 15px;
+    background-color: blueviolet;
+    color: white;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.form .right-side .first-box .box div a:hover {
+    letter-spacing: 0px;
+    background-color: white;
+    color: blueviolet;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+
+/* Last box */
+.form .right-side .last-box {
+    margin-top: 100px;
+}
+.form .right-side .last-box .title {
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+.form .right-side .last-box .box {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+.form .right-side .last-box ul li {
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0 30px 0;
+    border-bottom: solid 1px #ccc;
+}
+.form .right-side .last-box ul li .bold {
+    font-weight: bolder;
+}
+.form .right-side .last-box ul .line {
+    border: none;
+}
+.form .right-side .last-box .Payment {
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 60px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    width: 80%;
+    height: 40px;
+}
+.form .right-side .last-box .Payment a {
+    text-decoration: none;
+    color: blueviolet;
+}
+.form .right-side .last-box .ORDER {
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    width: 80%;
+    height: 40px;
+    background-color: blueviolet;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.form .right-side .last-box .ORDER:hover {
+    background-color: white;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+.form .right-side .last-box .ORDER a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 3px;
+}
+.form .right-side .last-box .ORDER a:hover {
+    color: blueviolet;
+    letter-spacing: 0px;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+/* Start footer */
+/* left side */
+footer {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 200px;
+    padding-left: 50px;
+}
+footer .Left-side ul{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+footer .Left-side h1 {
+    font-size: 30px;
+    padding-left: 45px;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footer .Left-side .menu {
+    display: flex;
+    justify-content: space-between;
+}
+footer .Left-side .menu li {
+    list-style: none;
+    margin: 20px 0;
+}
+footer .Left-side .menu li a {
+    color: black;
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+/* Right Side */
+/* First Div */
+footer .Right-side {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+footer .Right-side .first,.last {
+    width: 100%;
+    height: 100%;
+    padding-left: 50px;
+}
+footer .Right-side .first h1 {
+    font-size: 30px;
+    font-weight: bolder;
+    padding-bottom: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footer .Right-side .first img {
+    width: 300px;
+    height: 170px;
+    padding-top: 30px;
+}
+footer .Right-side .first p {
+    padding-top: 20px;
+    font-size: 20px;
+    color: #853de7;
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Last Div */
+footer .Right-side .last {
+    display: flex;
+    flex-direction: column;
+}
+footer .Right-side .last h1 {
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footer .Right-side .last ul {
+    margin-top: 60px;
+    width: 100%;
+    height: 100%;
+}
+footer .Right-side .last ul li {
+    list-style: none;
+    font-size: 15px;
+    display: flex;
+    padding: 10px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footer .Right-side .last ul li i {
+    margin-right: 8px;
+    text-align: center;
+    color: #5f23ec;
+}
+footer .Right-side .last .button {
+    margin-top: 50px;
+}
+footer .Right-side .last .button h1 {
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footer .Right-side .last .button input {
+    margin-top: 30px;
+    width: 150px;
+    height: 50px;
+}
+footer .Right-side .last .button a {
+    color: white;
+    background-color: #5f23ec;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
